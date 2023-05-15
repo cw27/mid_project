@@ -9,11 +9,18 @@ public class KgpayDTO {
 	private String comName;
 	private String pNum;
 	private String pName;
-	private String pPrice;
+	private int pPrice;
 	private String perNum;
 	private String addr;
-	private String point;
+	private int point;
+	private int pay;
 	
+	public int getPay() {
+		return pay;
+	}
+	public void setPay(int pay) {
+		this.pay = pay;
+	}
 	public String getcNum() {
 		return cNum;
 	}
@@ -56,10 +63,10 @@ public class KgpayDTO {
 	public void setpName(String pName) {
 		this.pName = pName;
 	}
-	public String getpPrice() {
+	public int getpPrice() {
 		return pPrice;
 	}
-	public void setpPrice(String pPrice) {
+	public void setpPrice(int pPrice) {
 		this.pPrice = pPrice;
 	}
 	public boolean isPlus() {
@@ -80,10 +87,10 @@ public class KgpayDTO {
 	public void setAddr(String addr) {
 		this.addr = addr;
 	}
-	public String getPoint() {
+	public int getPoint() {
 		return point;
 	}
-	public void setPoint(String point) {
+	public void setPoint(int point) {
 		this.point = point;
 	}
 }
