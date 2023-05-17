@@ -27,7 +27,6 @@ public class Payment {
 	}
 	
 	public int search_price( int num2 ) {
-		System.out.println("bbb");
 		String sql = "select price from product where pnum = " + num2;
 		try {
 			ps = con.prepareStatement(sql);
@@ -43,8 +42,7 @@ public class Payment {
 	}
 	
 	public int search_expense( int c_num ) {
-		System.out.println("bbb");
-		String sql = "select expense from product where cnum = " + c_num;
+		String sql = "select expense from card_custom where cnum = " + c_num;
 		try {
 			ps = con.prepareStatement(sql);
 			rs = ps.executeQuery();
@@ -59,18 +57,16 @@ public class Payment {
 	}
 	
 	public int ex_change(KgpayDTO kk, int c_num) {
-		System.out.println("aaa" + kk);
 		int result = 0;
-		String sql = "update card_custom set expense = " + (i + e) +  "where cNum = " + c_num;
+		int x = 0;
+		x = search_expense(c_num);
+		int y = i + x;
+		String sql = "update card_custom set expense = " + y +  "where cNum = " + c_num;
 		try {
 			ps = con.prepareStatement(sql);
-			//rs = ps.executeUpdate();
+			
 			result = ps.executeUpdate();
-			if(result == 0) {
-				System.out.println("업데이트 x");
-			} else {
-				System.out.println("업데이트 완료");
-			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

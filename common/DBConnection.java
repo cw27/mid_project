@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConnection {
-<<<<<<< HEAD
 	public static Connection getConnection() throws Exception {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		String id = "java", pwd = "1234";
@@ -12,19 +11,4 @@ public class DBConnection {
 		Connection con = DriverManager.getConnection(url, id, pwd);
 		return con;
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/a
-=======
-   public static Connection getConnection() throws Exception {
-      Class.forName("oracle.jdbc.driver.OracleDriver");
-      String id = "java", pwd = "1234";
-      String url = "jdbc:oracle:thin:@192.168.0.83:1521/xe";
-      Connection con = DriverManager.getConnection(url, id, pwd);
-      return con;
-   }
-}
-
->>>>>>> origin/b
