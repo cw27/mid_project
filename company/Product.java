@@ -44,7 +44,6 @@ public class Product {
 	}
 
 	public void select() {
-
 		String cate;
 		System.out.print("찾으시는 상품을 입력하세요: ");
 		Scanner sc = new Scanner(System.in);
@@ -98,8 +97,6 @@ public class Product {
 								System.out.println("카드 정보가 일치하지 않습니다.");
 							}
 						}
-						
-						
 					} else {
 						continue;
 					}
@@ -113,5 +110,3 @@ public class Product {
 		}
 	}
 }
-	
-	

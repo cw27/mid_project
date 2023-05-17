@@ -75,16 +75,12 @@ public class regpay {
 			kk.setcNum(cNum);
 			kk.setCvc(cvc);
 			kk.setcPwd(cPwd);
-			int result = regRegister( kk );
-			if(result == 0) {
-		         System.out.println("카드 정보가 존재합니다");
-		      }else {
-		         System.out.println("카드 등록이 완료되었습니다.");
-		      }
+			int result = regRegister(kk);
+			if (result == 0) {
+				System.out.println("카드 정보가 존재합니다");
+			} else {
+				System.out.println("카드 등록이 완료되었습니다.");
 			}
-
 		}
-
 	}
-
-
+}

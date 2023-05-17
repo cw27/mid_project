@@ -23,7 +23,6 @@ public class MainClass {
 			System.out.print(">>> ");
 			int num_se1 = sc.nextInt();
 			
-			
 			switch(num_se1) {
 			case 1:
 				cen.com_name();
@@ -78,50 +77,7 @@ public class MainClass {
 				}
 			case 3:
 				enr.cardInfo();
-				
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }

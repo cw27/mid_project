@@ -58,7 +58,5 @@ public class Product2 {
 		} else {
 			System.out.println("상품 등록이 완료되었습니다.");
 		}
-
 	}
-
 }

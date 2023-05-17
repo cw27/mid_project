@@ -13,6 +13,7 @@ public class CEnroll {
 	Connection con;
 	PreparedStatement ps;
 	ResultSet rs;
+	
 	public CEnroll() {
 		try {
 			con = DBConnection.getConnection();
@@ -47,43 +48,8 @@ public class CEnroll {
 		int result = comRegister( kk );
 		if(result == 0) {
 			System.out.println("동일한 업체가 존재합니다");
-		}else {
+		} else {
 			System.out.println("업체 등록이 완료되었습니다.");
 		}
-		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

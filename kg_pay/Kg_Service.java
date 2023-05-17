@@ -8,7 +8,6 @@ public class Kg_Service implements KgService {
 	@Override
 	public boolean correct(String cNum, String cvc, String cPwd) {
 		String cNum1 = sc.next();
-		
 		return tf1;
 	}
 
@@ -21,5 +20,4 @@ public class Kg_Service implements KgService {
 	public int k_point(int point1) {
 		return 0;
 	}
-	
 }
