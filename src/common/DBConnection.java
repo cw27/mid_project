@@ -11,4 +11,8 @@ public class DBConnection {
 		Connection con = DriverManager.getConnection(url, id, pwd);
 		return con;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/a
