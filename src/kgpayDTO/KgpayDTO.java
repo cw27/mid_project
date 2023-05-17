@@ -2,6 +2,7 @@ package kgpayDTO;
 
 public class KgpayDTO {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private boolean plus; // plus 회원인지
 	private double code; // 업체 코드
 	private double cvc; // 카드 뒷면 3자리
@@ -165,6 +166,8 @@ public class KgpayDTO {
 		this.pay = pay;
 	}
 =======
+=======
+>>>>>>> origin/b
    private boolean plus; // plus 회원인지
    private double code; // 업체 코드
    private double cvc; // 카드 뒷면 3자리
@@ -327,5 +330,8 @@ public class KgpayDTO {
    public void setPay(int pay) {
       this.pay = pay;
    }
+<<<<<<< HEAD
 >>>>>>> origin/a
+=======
+>>>>>>> origin/b
 }

@@ -7,9 +7,13 @@
 		</attributes>
 	</classpathentry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
 =======
 	<classpathentry kind="lib" path="D:/sqldeveloper/jdbc/lib/ojdbc8.jar"/>
 >>>>>>> origin/a
+=======
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+>>>>>>> origin/b
 	<classpathentry kind="output" path="bin"/>
 </classpath>

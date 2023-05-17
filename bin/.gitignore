@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 /common/
 /main/
 /company/
 /kgpayDTO/
 /login/
 /payment/
+=======
+/company/
+/kgpayDTO/
+/kg_pay/
+/main/
+/common/
+>>>>>>> origin/b
